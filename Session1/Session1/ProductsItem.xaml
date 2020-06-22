@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Session1.ProductsItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Session1"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="200">
+    <Grid Background="#FFFF9D1A">
+        <Image x:Name="imgBox" HorizontalAlignment="Left" Height="107" Margin="46,10,0,0" VerticalAlignment="Top" Width="100" Stretch="Fill"/>
+        <Label x:Name="txtPrice" Content="name" HorizontalAlignment="Left" Height="33" Margin="8,162,0,0" VerticalAlignment="Top" Width="182" FontFamily="Tw Cen MT"/>
+        <TextBlock x:Name="txtName" HorizontalAlignment="Left" Height="38" Margin="10,124,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="165"/>
+
+    </Grid>
+</UserControl>
