@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Session1.forms;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,17 @@ namespace Session1
 	/// </summary>
 	public partial class ProductsItem : UserControl
 	{
-		public ProductsItem()
+		public Products product;
+		public ProductsItem(Products pr)
 		{
+			product = pr;
 			InitializeComponent();
+		}
+
+		private void BtnEdit_Click(object sender, RoutedEventArgs e)
+		{
+			EditProductForm form = new EditProductForm(product);
+			form.ShowDialog();
 		}
 	}
 }

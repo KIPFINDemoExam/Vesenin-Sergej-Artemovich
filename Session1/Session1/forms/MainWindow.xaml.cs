@@ -43,7 +43,7 @@ namespace Session1
 				if(ind == 0)
 				{
 					
-					ProductsItem Lsitem = new ProductsItem();
+					ProductsItem Lsitem = new ProductsItem(it);
 					Lsitem.txtName.Text = it.Name;
 					Lsitem.txtPrice.Content = it.Price.Trim(new char[] { ' ' }) + " рублей.";
 					Lsitem.imgBox.Source = new BitmapImage(new Uri(Environment.CurrentDirectory+@"\images\" + it.ImagesPath));
@@ -54,7 +54,7 @@ namespace Session1
 				}
 				else if (ind == 1)
 				{
-					ProductsItem Lsitem = new ProductsItem();
+					ProductsItem Lsitem = new ProductsItem(it);
 					Lsitem.txtName.Text = it.Name;
 					Lsitem.txtPrice.Content = it.Price.Trim(new char[] { ' ' }) + " рублей.";
 					Lsitem.imgBox.Source = new BitmapImage(new Uri(Environment.CurrentDirectory+@"\images\" + it.ImagesPath));
@@ -65,7 +65,7 @@ namespace Session1
 				}
 				else if (ind == 2)
 				{
-					ProductsItem Lsitem = new ProductsItem();
+					ProductsItem Lsitem = new ProductsItem(it);
 					Lsitem.txtName.Text = it.Name;
 					Lsitem.txtPrice.Content = it.Price.Trim(new char[] { ' ' }) + " рублей.";
 					Lsitem.imgBox.Source = new BitmapImage(new Uri(Environment.CurrentDirectory + @"\images\" + it.ImagesPath));

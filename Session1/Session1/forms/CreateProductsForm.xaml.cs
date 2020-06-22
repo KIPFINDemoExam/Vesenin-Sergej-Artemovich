@@ -26,7 +26,6 @@ namespace Session1.forms
 		{
 			InitializeComponent();
 		}
-
 		private void BtnAddImage_Click(object sender, RoutedEventArgs e)
 		{
 			OpenFileDialog fileDialog = new OpenFileDialog();
@@ -36,9 +35,7 @@ namespace Session1.forms
 				img.Source = new BitmapImage(new Uri(fileDialog.FileName));
 				path = fileDialog.SafeFileName;
 			}
-
 		}
-
 		private void BtnCreate_Click(object sender, RoutedEventArgs e)
 		{
 			if(!String.IsNullOrEmpty(txtName.Text)&& !String.IsNullOrEmpty(txtDec.Text)&&

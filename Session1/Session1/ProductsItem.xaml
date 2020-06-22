@@ -7,9 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="200" d:DesignWidth="200">
     <Grid Background="#FFFF9D1A">
-        <Image x:Name="imgBox" HorizontalAlignment="Left" Height="107" Margin="46,10,0,0" VerticalAlignment="Top" Width="100" Stretch="Fill"/>
-        <Label x:Name="txtPrice" Content="name" HorizontalAlignment="Left" Height="33" Margin="8,162,0,0" VerticalAlignment="Top" Width="182" FontFamily="Tw Cen MT"/>
-        <TextBlock x:Name="txtName" HorizontalAlignment="Left" Height="38" Margin="10,124,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="165"/>
+        <Image x:Name="imgBox" HorizontalAlignment="Left" Height="107" Margin="46,5,0,0" VerticalAlignment="Top" Width="100" Stretch="Fill"/>
+        <Label x:Name="txtPrice" Content="name" HorizontalAlignment="Left" Height="23" Margin="10,144,0,0" VerticalAlignment="Top" Width="182" FontFamily="Tw Cen MT"/>
+        <TextBlock x:Name="txtName" HorizontalAlignment="Left" Height="32" Margin="10,112,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="165"/>
+        <Button x:Name="btnEdit" Content="Редактировать" HorizontalAlignment="Left" Height="18" Margin="10,172,0,0" VerticalAlignment="Top" Width="165" Click="BtnEdit_Click"/>
 
     </Grid>
 </UserControl>

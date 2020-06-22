@@ -25,8 +25,6 @@ namespace Session1
 	{
 		public static List<Products> productsList = new List<Products>();
 		public static string ConnStr = @"Data Source=DESKTOP-M591BD6\SQLEXPRESS;Initial Catalog=Session1;Integrated Security=True";
-
-
 		public static Exception LoadProductList()
 		{
 			SqlConnection conn = null;
